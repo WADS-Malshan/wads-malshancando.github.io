@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+.cando-navigation ul li{
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.cando-navigation ul li a{
+    margin-left: 20px;
+    font-size: 14px;   
+}
+
+.cando-navigation .navbar-light .navbar-nav .nav-link {
+    color: #1754A4;
+}
+
+.cando-navigation .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
+
+.cando-navigation .active{
+    background-color: #1754A4;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cando-navigation .menu{
+        display: none;
+    }
+    .cando-navigation .active{
+        text-align: center;
+    }
+}
+
+
+/* Header Section */
+.cando-header{
+    position: relative;
+    
+}
+
+.cando-header .header-bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cando-header .header-overlay{
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cando-header .desc-text{
+    position: absolute;
+    top: 110px;
+    left: 110px;
+   
+}
+
+.cando-header .desc-text .desc-left h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #45A2DD;
+}
+
+.cando-header .desc-text .desc-left h6{
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.cando-header .desc-text .desc-left .btn-vote-for-teacher{
+    background-color: #45A2DD;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .cando-header .teacher{
+        display: none;
+    }
+    .cando-header .desc-text{
+        position: absolute;
+        top: 15px;
+        left: 0;
+       
+    }
+    .cando-header .desc-text .desc-left h2{
+        font-size: 16px;
+        font-weight: bold;
+        color: #45A2DD;
+    }
+    
+    .cando-header .desc-text .desc-left h6{
+        font-size: 8px;
+        font-weight: normal;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    
+    .cando-header .desc-text .desc-left .btn-vote-for-teacher{
+        background-color: #45A2DD;
+        padding: 8px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 8px;
+        border-radius: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.what-we-do{
+    margin-top: 750px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    padding: 50px;
+}
+
+.what-we-do h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: #1654A5;
+}
+
+.what-we-do h2 span{
+    font-weight: bold;
+    font-size: 50px;
+    color: #1654A5;
+}
+
+.what-we-do h6{
+    font-weight: bold;
+    font-size: 14px;
+    color: #777777;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.what-we-do .btn-vote-for-teacher{
+    background-color: #45A2DD;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.what-we-do .overlay{
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+.what-we-do .what-text{
+    padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .what-we-do{
+        margin-top: 200px;
+        padding: 10px;
+    }
+    .what-we-do .what-text{
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+.teachers{
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.teachers h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1754A3;
+}
+
+.teachers h6{
+    font-size: 14px;
+    font-weight: normal;
+    color: #1754A3;
+}
+
+.teachers .teacher-box-bg{
+    background-color: #45A2DD;
+}
+.teachers .teacher-box-bg h6{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.teachers .teacher-desc{
+    padding: 10px;
+}
+
+.teachers .teacher-box{
+    padding: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .teachers{
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .teachers .teacher-box{
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+.persons{
+    
+    padding: 50px;
+}
+.persons .box{
+    margin: 10px;
+}
+.persons .desi{
+    display: flex;
+    flex-direction: row;
+}
+
+.persons .bg-col-name{
+    background-color: #1754A4;
+    margin-left: auto;
+    padding: 10px;
+    
+}
+
+.persons .bg-col-name h5{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.persons .bg-col-name h6{
+    color: #777777;
+    font-size: 14px;
+    text-align: center;
+}
+
+.persons .bg-col-view{
+    background-color: #001763;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.persons .bg-col-view h6{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+}
+
+.persons .bg-col-vote{
+    background-color: #45A2DD;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.persons .bg-col-vote h6{
+    color: #ffffff;
+    font-size: 12px;}
+
+@media only screen and (max-width: 768px) {
+    .persons{
+    
+        padding: 20px;
+    }
+    .persons .hide{
+        display: none;
+        
+    }
+}
+
+
+
+
+
+
+
+
+.projects{
+    background-image: url("../images/projects-bg.png"); 
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 50px;
+}
+
+.projects .title h2{
+    color: #1754A4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.projects .box{
+    margin-bottom: 10px;
+}
+
+.projects .box h5{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects .box h6{
+    color: #777777;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.projects .box .read-more{
+    background-color: #45A2DD;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects{
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+
+.donate{
+    padding: 50px;
+    background-color: #45A2DD;
+}
+
+.donate .box{
+    padding: 30px;
+    background-color: #1654A5;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.donate .box h6{
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.donate h2{
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.donate h6{
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.donate .btn-donate{
+    background-color: #1654A5;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 768px) {
+    .donate{
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.social-links{
+    padding: 50px;
+    background-color: #1754A4;
+}
+
+.social-links .align{
+    display: flex;
+    justify-content: end;
+}
+
+.social-links .links a{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.social-links .social img{
+    margin-left: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .social-links{
+        padding: 30px;
+    }
+    .social-links .align{
+        display: flex;
+        justify-content: start;
+    }
+    .social-links .social img{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+.footer{
+    padding: 50px;
+    background-color: #1754A4;
+}
+
+.footer h6{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.footer .copyright{
+    display: flex;
+    justify-content: end;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        padding: 30px;
+    }
+    .footer .copyright{
+        margin-top: 10px;
+        display: flex;
+        justify-content: start;
+    }
+}
